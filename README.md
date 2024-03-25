@@ -7,3 +7,8 @@
 ### Sources of data
 ### Data Category
 ### Data learning
+
+## Methodology
+- Linear Regresion
+  
+- Decision Tree
