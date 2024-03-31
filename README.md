@@ -2,9 +2,9 @@
 
 ## Introduction
 
-    This project will be examining trends in player stats among National Basketball Association (NBA) end of season awards. 
-    First, it is important distinguish the awards that will be examined, as well as what they mean for a player to recieve 
-    the award.
+    This project will be examining trends in player stats among National Basketball Association (NBA)
+    end of season awards. First, it is important distinguish the awards that will be examined, 
+    as well as what they mean for a player to recieve the award.
 
 ### Awards Overview
 
