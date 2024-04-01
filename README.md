@@ -49,10 +49,23 @@
 ## Data
 
 ### Sources of data
+
+Every single NBA player's stats in the current 2023-24 season, ordered by points per game: https://www.espn.com/nba/stats/player
+
+Every very previous NBA MVP and their stats: https://www.basketball-reference.com/awards/mvp.html
+
+All Most improved players and their stats for the year they won: https://www.espn.com/nba/history/awards/_/id/36
+
+Dataset for MIP players previous year's stats has not been decided on yet.
+
+
 ### Data Category
 ### Data learning
 
 ## Methodology
-- Linear Regresion
+- Linear Regression to identify relationships between player stats and award winnings, predicting MVP based on statistical benchmarks.
   
-- Decision Tree
+- Logistic Regression to predict the likelihood of a player being named to the All-NBA First Team based on efficiency metrics 
+  like true shooting percentage.
+
+- Time Series Analysis for tracking improvements in player performance over seasons, aiding in Most Improved Player predictions.
