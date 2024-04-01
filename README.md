@@ -3,7 +3,7 @@
 ## Introduction
 This project will be examining trends in player stats among National Basketball Association (NBA) end of season awards. First, it is important distinguish the awards that will be examined, as well as what they mean for a player to recieve the award.
 
-### Awards Overview
+#### Awards Overview
 
 Most Valuable Player (MVP): Arguably the most prestigious award of them all, the MVP award goes to the overall "best" player of the NBA season, which is usually the player that is most important to the team. However, fans don't always agree with the chosen MVP and there is constant debate on who it should be.
 
@@ -11,7 +11,7 @@ All-NBA First Team: At the end of the season, there are three teams of players f
 
 Most Improved Player (MIP): This award is given to the player who has shown the most growth between last season and the current season. It is usually given to an under the radar player, but can also be given to a big name if they improve enough.
 
-### Analysis of Awards
+#### Analysis of Awards
 
 For Most Valuable Player, this project will explore the historical data to identify the minimum statistical thresholds across the main categories (points, assists, rebounds, steals, and blocks) that players have achieved in past seasons to win the MVP award. Additionally, we will examine the team performance aspect, specifically the minimum team seed required for a player to be considered for the MVP. This analysis aims to establish a benchmark for what it takes statistically and team-success-wise to win the MVP award and to predict who might win the MVP in the 2023-24 season based on current statistics and team standings.
 
