@@ -65,10 +65,13 @@ These players were found by comparing every NBA players stats to previous winner
 ![MVP Min Stats](graph/MVPMinStats.png)
 
 
+
+
 The predicted All-NBA First Team for the 2023-24 season:
 ![NBA First Team Prediction](graph/FirstTeamPrediction.png)
-
 These players were found by comparing their stats to previous NBA First teams. However, players had to be compared to their respective position: guard, forward, or center, as an All NBA Team consists of 2 guards, 2 forwards, and 1 center. The top 2 guards and forwards, as well as top center, were chosen after comparison with one another.
+
+
 
 The Most Improved Player Candidates for the 2023-24 season:
 ![MIP Prediction](graph/MIPPrediction.png)
