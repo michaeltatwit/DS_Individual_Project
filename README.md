@@ -59,7 +59,29 @@ All Most improved players and their stats for the year they won: https://www.esp
 
 Clear results were retrieved after examining all datasets. Based on player stats, we can accurately determime the leader(s) for individual awards this season. We can confirm they're accurate by looking at live odds on who could possibly win, with slight discrepancies. The discrepancies, however, were not only expected but sort of desired, as it shys away from people taking a big name player over someone who has statically produced more than them in this NBA season. 
 
-The current leaders for the NBA MVP based on this season's statistics are presented in the graph below:
+The current leaders for the 2023-24 NBA MVP Award based on this season's statistics are presented in the graph below:
 ![MVP Candidates](graph/MVPPrediction.png)
 These players were found by comparing every NBA players stats to previous winner's minimum stats. To qualify, a player this season had to have more than the minimum in every major stat category, than the top 5 were taken from there. Here are the minimum stats that these players were compared to:
 ![MVP Min Stats](graph/MVPMinStats.png)
+
+
+The predicted All-NBA First Team for the 2023-24 season:
+![NBA First Team Prediction](graph/FirstTeamPrediction.png)
+
+These players were found by comparing their stats to previous NBA First teams. However, players had to be compared to their respective position: guard, forward, or center, as an All NBA Team consists of 2 guards, 2 forwards, and 1 center. The top 2 guards and forwards, as well as top center, were chosen after comparison with one another.
+
+The Most Improved Player Candidates for the 2023-24 season:
+![MIP Prediction](graph/MIPPrediction.png)
+
+Coby White seems like the clear favorite based on the graph. However, Tyrese Maxey is likely to win it as he has improved slighly less than White, but is producing much more overall (note the PPG this season is significantly higher).
+
+
+## Summary 
+
+The individual awards for NBA are pretty hard to 100% accurately predict. However, we have an idea of the possible candidiates after looking at stats. When comparing players to other players in the league, as well as historical winners, we know if they have a realistic shot or not. When I personally look at these graphs, I would personally predict the following: 
+- NBA MVP: Nikola Jokic
+- NBA MIP: Tyrese Maxey
+- All NBA First Team: Luka Doncic, Shai Gilgeous-Alexander, Jayson Tatum, Giannis Antetokounmpo, Nikola Jokic
+
+The only thing I really changed from the graphs is Jayson Tatum instead of Kevin Durant in the All NBA First team, as team success also plays a role.
+The NBA season is coming to an end, and these awards will soon be given out. I can't wait to come back to this project and compare!
