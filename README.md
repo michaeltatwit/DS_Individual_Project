@@ -1,7 +1,7 @@
 # DS_Individual_Project
 
 ## Introduction
-This project will be examining trends in player stats among National Basketball Association (NBA) end of season awards. First, it is important distinguish the awards that will be examined, as well as what they mean for a player to recieve the award.
+This project will be examining trends in player stats among National Basketball Association (NBA) end of season awards. First, it is important distinguish the awards that will be examined, as well as what they mean for a player to recieve the award. What separates this project from the other NBA data analysis projects is that this examines every individual player stats in the league, and gets into depth for individual end of season awards, rather than team performance and success.
 
 #### Awards Overview
 
