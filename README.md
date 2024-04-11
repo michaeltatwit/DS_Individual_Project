@@ -21,21 +21,26 @@ For Most Improved player, this project will investigate the statistical benchmar
 
 ## Data
 
+The data that was used was chosen to incorporate all players. The reason being because superstars are much more common to be included in these discussions, but this project aims to exclude any of that and solely look at the stats. All NBA players are included in the current season and previous season files, and every MVP, MIP, and first team is located in their respective files as well, so no data is left behind. 
+
+Some of the data was tricky to handle, as columns meant the same thing but were labeled differently. This was handled by comparing them at the beginning, and just using the current columns as the basis for the rest of the code:
+
+![](/graph/DifferentColumnNames.png)
+
 ### Sources of data
 
 Every single NBA player's stats in the current 2023-24 season, ordered by points per game: https://www.espn.com/nba/stats/player
 
 Every very previous NBA MVP and their stats: https://www.basketball-reference.com/awards/mvp.html
 
+Every NBA first team, and each player's stats: https://www.espn.com/nba/history/awards/_/id/44
+
 All Most improved players and their stats for the year they won: https://www.espn.com/nba/history/awards/_/id/36
 
-Dataset for MIP players previous year's stats has not been decided on yet.
+2022-23 player stats for comparison with this years for MIP: https://www.basketball-reference.com/leagues/NBA_2023_per_game.html
 
 
-### Data Category
-### Data learning
-
-## Methodology
+## Methods
 - Linear Regression to identify relationships between player stats and award winnings, predicting MVP based on statistical benchmarks.
   
 - Logistic Regression to predict the likelihood of a player being named to the All-NBA First Team based on efficiency metrics 
