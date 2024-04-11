@@ -24,7 +24,8 @@ For Most Improved player, this project will investigate the statistical benchmar
 The data that was used was chosen to incorporate all players. The reason being because superstars are much more common to be included in these discussions, but this project aims to exclude any of that and solely look at the stats. All NBA players are included in the current season and previous season files, and every MVP, MIP, and first team is located in their respective files as well, so no data is left behind. 
 
 Some of the data was tricky to handle, as columns meant the same thing but were labeled differently. This was handled by comparing them at the beginning, and just using the current columns as the basis for the rest of the code:
-![](graph/DifferentColumnNames.png)
+
+![Difference in column names](graph/DifferentColumnNames.png)
 
 ### Sources of data
 
