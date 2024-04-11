@@ -27,6 +27,10 @@ Some of the data was tricky to handle, as columns meant the same thing but were 
 
 ![Difference in column names](graph/DifferentColumnNames.png)
 
+Along with this, some merging made it much easier to compare data. For the Most Improved Player award, the 2 datasets required were the previous season stats, and the current season stats to see increases in averages for players across the entire league. To compare a players averages, the datasets were merged on player name, and column names recieved a _prev or _curr sufix that corresponded with which season the player's stats were:
+
+![Merge Datasets](graph/MergingData.png)
+
 ### Sources of data
 
 Every single NBA player's stats in the current 2023-24 season, ordered by points per game: https://www.espn.com/nba/stats/player
