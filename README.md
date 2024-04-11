@@ -27,7 +27,8 @@ Some of the data was tricky to handle, as columns meant the same thing but were 
 
 ![Difference in column names](graph/DifferentColumnNames.png)
 
-Along with this, some merging made it much easier to compare data. For the Most Improved Player award, the 2 datasets required were the previous season stats, and the current season stats to see increases in averages for players across the entire league. To compare a players averages, the datasets were merged on player name, and column names recieved a _prev or _curr sufix that corresponded with which season the player's stats were:
+
+Along with this, some merging made it much easier to compare data. For the Most Improved Player award, the 2 datasets required were the previous season stats, and the current season stats to see increases in averages for players across the entire league. To compare a players averages, the datasets were merged on player name, and column names recieved a _prev or _curr sufix that corresponded with which season the player's stats orginated:
 
 ![Merge Datasets](graph/MergingData.png)
 
@@ -45,9 +46,20 @@ All Most improved players and their stats for the year they won: https://www.esp
 
 
 ## Methods
+- Pandas, matplotlib, plotting
+
 - Linear Regression to identify relationships between player stats and award winnings, predicting MVP based on statistical benchmarks.
   
 - Logistic Regression to predict the likelihood of a player being named to the All-NBA First Team based on efficiency metrics 
   like true shooting percentage.
 
 - Time Series Analysis for tracking improvements in player performance over seasons, aiding in Most Improved Player predictions.
+
+## Results
+
+Clear results were retrieved after examining all datasets. Based on player stats, we can accurately determime the leader(s) for individual awards this season. We can confirm they're accurate by looking at live odds on who could possibly win, with slight discrepancies. The discrepancies, however, were not only expected but sort of desired, as it shys away from people taking a big name player over someone who has statically produced more than them in this NBA season. 
+
+The current leaders for the NBA MVP based on this season's statistics are presented in the graph below:
+![MVP Candidates](graph/MVPPrediction.png)
+These players were found by comparing every NBA players stats to previous winner's minimum stats. To qualify, a player this season had to have more than the minimum in every major stat category, than the top 5 were taken from there. Here are the minimum stats that these players were compared to:
+![MVP Min Stats](graph/MVPMinStats.png)
